@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.pri_info {
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 50%;
+}
+
+#room_info {
+    border: 3px solid #FF0000;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+#main {
+    overflow-y:scroll;
+    height:500px;
+    background-color: f1f1f1;
+}
+
+.handdiv {
+    float: left;
+}
+
+.handname {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#left_hand, #right_hand {
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.dropzone {
+    border: 1px solid black;
+    padding: 8px;
+    min-height: 100px;
+}
+
+.grabable {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+td {
+   text-align: center;
+}
+table {
+   border-collapse: collapse;
+   border: 1px solid black;
+   float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
